@@ -11,11 +11,11 @@ from streamlit_option_menu import option_menu
 
 # Loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/ASUS/Desktop/Multiple_Disease_Web_App/diabetes_model.pkl', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.pkl', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/ASUS/Desktop/Multiple_Disease_Web_App/hearts_model.pkl', 'rb'))
+heart_disease_model = pickle.load(open('hearts_model.pkl', 'rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/ASUS/Desktop/Multiple_Disease_Web_App/parkinsons_model.pkl', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.pkl', 'rb'))
 
 
 
